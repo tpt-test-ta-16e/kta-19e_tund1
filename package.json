@@ -4,7 +4,7 @@
   "description": "* https://nodejs.org/en/download/\r  * https://git-scm.com/downloads\r  * https://code.visualstudio.com/",
   "main": "example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
