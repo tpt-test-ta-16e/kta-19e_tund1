@@ -14,4 +14,7 @@ tund1 stuff!
 # set your name/email in git
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@example.com"
+
+# use vs code as default editor
+git config --global core.editor "code --wait"
 ```
