@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eritikass/kta-19e/issues"
   },
-  "homepage": "https://github.com/eritikass/kta-19e#readme"
+  "homepage": "https://github.com/eritikass/kta-19e#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
