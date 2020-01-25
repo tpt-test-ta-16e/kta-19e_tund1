@@ -8,6 +8,10 @@ tund1 stuff!
  * https://git-scm.com/downloads
  * https://code.visualstudio.com/ 
 
+## testing framework
+
+ * https://jestjs.io/docs/en/getting-started
+
 ##  git commands
 
 ```bash
