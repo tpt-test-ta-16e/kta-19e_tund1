@@ -18,3 +18,5 @@ git config --global user.email "johndoe@example.com"
 # use vs code as default editor
 git config --global core.editor "code --wait"
 ```
+
+  * nice git UI -> https://www.sourcetreeapp.com/
