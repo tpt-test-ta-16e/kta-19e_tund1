@@ -8,7 +8,7 @@ tund1 stuff!
  * https://git-scm.com/downloads
  * https://code.visualstudio.com/ 
 
-## reset git user
+##  git commands
 
 ```bash
 # set your name/email in git
