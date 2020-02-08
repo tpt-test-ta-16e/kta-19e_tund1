@@ -21,6 +21,14 @@ test('sum "a" (string) + "b" (string) will throw Error', () => {
     };
     expect(functionWithError).toThrow();
 });
+test('sum 0 (number) + "kala" (string) is Error', () => {
+    const err = () => {
+        sum(0, "kala")
+    };
+    const is = expect(err)
+    is.toThrow();
+    is.not.toBe("0kala");
+});
 
 const testCases = [
     [1, 2, 3],
