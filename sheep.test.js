@@ -18,6 +18,18 @@ describe('Sheep class', () => {
             s.setName('Sally');
             expect(s.getName()).toBe('Sally');
         });
+        test('new name given (Dolly -> Sally)', () => {
+            const s = new Sheep("Dolly");
+            expect(s.getName()).toBe("Dolly");
+            expect(s.setName('Sally')).toBe(true);
+            expect(s.getName()).toBe("Sally");
+        });
+        test('no new name given (Dolly -> Dolly)', () => {
+            const s = new Sheep("Dolly");
+            expect(s.getName()).toBe("Dolly");
+            expect(s.setName('Dolly')).toBe(false);
+            expect(s.getName()).toBe("Dolly");
+        });
     });
 
 });
