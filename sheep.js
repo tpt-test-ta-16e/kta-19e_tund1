@@ -1,4 +1,4 @@
-class Lammas {
+class Sheep {
 
     constructor(name) {
         this.name = name;
@@ -15,4 +15,4 @@ class Lammas {
 // exports.foo = 'boo';
 // exports.Lammas = Lammas;
 
-module.exports = Lammas;
+module.exports = Sheep;
