@@ -15,6 +15,12 @@ test('sum 1 (number) + "2" (string) is not "12"', () => {
 test('sum 1 (number) + "2" (string) is 3', () => {
     expect(sum(1, "2")).toBe(3);
 });
+test('sum "a" (string) + "b" (string) will throw Error', () => {
+    const functionWithError = () => {
+        sum("a", "b")
+    };
+    expect(functionWithError).toThrow();
+});
 
 const testCases = [
     [1, 2, 3],
