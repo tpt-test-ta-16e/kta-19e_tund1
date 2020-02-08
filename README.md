@@ -43,4 +43,7 @@ git fetch ops
 
 # reset local to ops remote master branch 
 git reset --hard origin/master
+
+# git force push to remote (will override remote)
+git push -f
 ```
