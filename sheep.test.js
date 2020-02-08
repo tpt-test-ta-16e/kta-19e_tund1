@@ -1,15 +1,18 @@
 const Sheep = require('./sheep');
 
-const NAME1 = 'Dolly';
-const NAME2 = 'Sally';
-
 describe('Sheep class', () => {
-    test(`create Sheep with name ${NAME1}, check that name is ${NAME1}`, () => {
-        const s = new Sheep(NAME1);
-        expect(s.getName()).toBe(NAME1);
+    test(`create Sheep with name Dolly, check that name is Dolly`, () => {
+        const s = new Sheep('Dolly');
+        expect(s.getName()).toBe('Dolly');
     });
-    test(`create Sheep with name ${NAME2}, check that name is ${NAME2}`, () => {
-        const s = new Sheep(NAME2);
-        expect(s.getName()).toBe(NAME2);
+    test(`create Sheep with name Sally, check that name is Sally`, () => {
+        const s = new Sheep('Sally');
+        expect(s.getName()).toBe('Sally');
+    });
+    test(`create Sheep with name Sally, change name to Dolly, check name is now Dolly`, () => {
+        const s = new Sheep("Dolly");
+        expect(s.getName()).toBe("Dolly");
+        s.setName('Sally');
+        expect(s.getName()).toBe('Sally');
     });
 });
