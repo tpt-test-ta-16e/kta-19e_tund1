@@ -4,7 +4,7 @@ describe("sum.js", () => {
     describe("normal flow", () => {
         test('sum 1 + 2 equals 3', () => {
             const value = sum(1, 2);
-            expect(value).toBe(10);
+            expect(value).toBe(1);
         });
         
         test('sum 1 + 4 equals 5', () => {
