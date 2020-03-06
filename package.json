@@ -5,7 +5,8 @@
   "main": "example.js",
   "scripts": {
     "test": "jest --verbose",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
